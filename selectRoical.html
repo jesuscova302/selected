@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>roical select dinamico</title>
+	</head>
+	<style >
+
+
+		#opcSelect>select{
+			text-transform: uppercase;/*capitalize*/
+		}
+	</style>
+	<body>
+		<div class="opcSelect" id="opcSelect">
+		   <select id="typeTransa">
+		   	 <!-- <option value="Selecciona Categoria">Selecciona Categoria</option>-->
+		     <!-- <option value="seleccione una opcion">seleccione una opcion</option>-->
+		      <option value="acciones">acciones</option>
+		      <option value="cryptomonedas" selected>cryptomonedas</option>
+		      <option value="monedas">monedas</option>
+		      <option value="petroleos">petroleos</option>
+		      <option value="piedras">piedras preciosas</option>
+		    <!--  <option value="otras">otras</option>-->
+		   </select> 
+		   <select id="active">
+		   		<!--<option value="seleccione una opcion">seleccione una opcion</option>-->
+		   </select>
+
+		   <select id="value-active">
+		   	<!--<option value="seleccione una opcion">seleccione una opcion</option>-->
+		   </select>
+		</div>
+
+		<script src="jquery-3.3.1.min.js"> </script>
+		<script
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">	
+		</script>
+		<script src="selectRoical.js"></script>
+	</body>
+</html>
+

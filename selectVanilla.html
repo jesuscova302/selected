@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>select vanilla js</title>
+	</head>
+	<body>
+		<table>
+		   <tr>
+		      <td align=right>Provincia:</td>
+		      <td align=left colspan=3>
+		          <!-- Añadido onchange para cargar los pueblos -->
+		          <select name="provincia" id="provincia" onchange="cargarPueblos();">
+		              <!-- Hay que terminar los options -->
+		              <!-- 
+		                   Eliminado de value la llamada a la función,
+		                   si eso funciona lo desconocía, y aunque 
+		                   lo haga es totalmente innecesario, 
+		                   lo correcto es usar el evento onchange 
+		                -->
+		              <option value="">Seleccione una Provincia...</option>
+		              <option value="">Numeros</option>
+		              <option value="">Uno</option>
+		              <option value="">Dos</option>
+		          </select>
+		      </td>
+		  </tr>
+		  <tr>                    
+		      <td align=right>Pueblo:</td>
+		      <td align=left colspan=3>
+		          <select name="pueblo" id="pueblo">
+		              <!-- Hay que terminar los options -->
+		              <!-- 
+		                   Eliminado de value la llamada a la función,
+		                   si eso funciona lo desconocía, y aunque 
+		                   lo haga es totalmente innecesario, 
+		                   lo correcto es usar el evento onchange 
+		                -->
+		              <option value="">Seleccione un Pueblo...</option>
+		          </select>
+		      </td>
+		  </tr>
+		</table>
+		<script src="selectVanilla.js"></script>	
+	</body>
+</html>
